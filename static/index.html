@@ -11,9 +11,18 @@
 	</head>
 
 	<body>
-		
 		<textarea spellcheck="false"></textarea>
-
+		<a><i id="light-mode-btn"></i></a>
 	</body>
+
+	<script>
+		document.getElementById('light-mode-btn').addEventListener('click', function (e) {
+			const toggler = document.body;
+			toggler.classList.toggle('light-mode');
+			// const target = e.target;
+			// target.classList.toggle('fa-moon');
+			// target.classList.toggle('fa-sun');
+		});
+	</script>
 
 </html>
