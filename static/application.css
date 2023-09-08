@@ -21,6 +21,7 @@ textarea {
 	font-size: 15px;
 	margin-top: 0;
 	margin-bottom: 0;
+	scrollbar-color: #586E75 #073642;
 }
 
 ::-webkit-scrollbar {
@@ -43,6 +44,7 @@ textarea {
 
 .light-mode textarea {
 	color: #586E75; /* Base 01 */
+	scrollbar-color: #93A1A1 #EEE8D5;
 }
 
 .light-mode ::-webkit-scrollbar-track-piece  {
