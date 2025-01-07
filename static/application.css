@@ -1,4 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Fira%20Code:400,500,700';
+@font-face {
+	font-family: 'Fira Code';
+	src: url('FiraCode-Regular.ttf')  format('truetype')
+  }
 
 body {
 	background: #002B36; /* Base 03 */
